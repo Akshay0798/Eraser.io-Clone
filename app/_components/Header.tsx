@@ -22,8 +22,8 @@ const Header = () => {
               <a className="text-white transition hover:text-gray-100/75" href="#">{" "}History{" "}</a>
               </li>
 
-              <li><a className="text-white transition hover:text-gray-100/75" href="#">{" "}Services{" "}
-                </a>
+              <li>
+                <a className="text-white transition hover:text-gray-100/75" href="#">{" "}Services{" "}</a>
               </li>
 
               <li>
