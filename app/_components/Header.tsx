@@ -11,82 +11,36 @@ const Header = () => {
           <nav aria-label="Global" className="hidden md:block">
             <ul className="flex items-center gap-6 text-sm">
               <li>
-                <a
-                  className="text-white transition hover:text-gray-100/75"
-                  href="#"
-                >
-                  {" "}
-                  About{" "}
+                <a className="text-white transition hover:text-gray-100/75" href="#">{" "}About{" "}</a>
+              </li>
+
+              <li>
+                <a className="text-white transition hover:text-gray-100/75" href="#">{" "}Careers{" "}</a>
+              </li>
+
+              <li>
+              <a className="text-white transition hover:text-gray-100/75" href="#">{" "}History{" "}</a>
+              </li>
+
+              <li><a className="text-white transition hover:text-gray-100/75" href="#">{" "}Services{" "}
                 </a>
               </li>
 
               <li>
-                <a
-                  className="text-white transition hover:text-gray-100/75"
-                  href="#"
-                >
-                  {" "}
-                  Careers{" "}
-                </a>
+                <a className="text-white transition hover:text-gray-100/75"href="#">{" "}Projects{" "}</a>
               </li>
 
               <li>
-                <a
-                  className="text-white transition hover:text-gray-100/75"
-                  href="#"
-                >
-                  {" "}
-                  History{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-white transition hover:text-gray-100/75"
-                  href="#"
-                >
-                  {" "}
-                  Services{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-white transition hover:text-gray-100/75"
-                  href="#"
-                >
-                  {" "}
-                  Projects{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-white transition hover:text-gray-100/75"
-                  href="#"
-                >
-                  {" "}
-                  Blog{" "}
-                </a>
+                <a className="text-white transition hover:text-gray-100/75"href="#">{" "}Blog{" "}</a>
               </li>
             </ul>
           </nav>
 
           <div className="flex items-center gap-4">
+            
             <div className="sm:flex sm:gap-4">
-              <a
-                className="block rounded-md  px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
-                href="#"
-              >
-                Login
-              </a>
-
-              <a
-                className=" border border-blue-500 hidden rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-transparent sm:block"
-                href="#"
-              >
-                Register
-              </a>
+              <a className="block rounded-md  px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"href="#">Login</a>
+              <a className=" border border-blue-500 hidden rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-transparent sm:block"href="#">Register</a>
             </div>
 
             <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
