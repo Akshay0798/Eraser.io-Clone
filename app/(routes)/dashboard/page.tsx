@@ -6,6 +6,7 @@ import React from 'react'
 const Dashboard = () => {
   return (
     <div>
+      Dashboard
       <Button>
         <LogoutLink>Logout</LogoutLink>
       </Button>
