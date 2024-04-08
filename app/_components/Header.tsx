@@ -41,7 +41,7 @@ const Header = () => {
             
             <div className="sm:flex sm:gap-4">
               <a className="block rounded-md  px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"href="#">
-                <LoginLink  postLoginRedirectURL="/dashboard">Login</LoginLink></a>
+                <LoginLink postLoginRedirectURL="/dashboard">Login</LoginLink></a>
               <a className="border border-blue-500 hidden rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-transparent sm:block"href="#">
                 <RegisterLink>Register</RegisterLink></a>
             </div>
