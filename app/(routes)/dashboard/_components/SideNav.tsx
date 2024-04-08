@@ -1,5 +1,4 @@
 import { Archive, ChevronDown, Flag, Github } from "lucide-react";
-import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 import SideNavTopSection, { TEAM } from "./SideNavTopSection";
 import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
