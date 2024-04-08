@@ -12,8 +12,9 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
-// import Constant from '@/app/_constant/Constant'
-// import PricingDialog from './PricingDialog'
+import Constant from '@/app/_constant/Constant';
+import PricingDialog from './PricingDialog';
+
 function SideNavBottomSection({ onFileCreate, totalFiles }: any) {
   const menuList = [
     {
@@ -86,7 +87,7 @@ function SideNavBottomSection({ onFileCreate, totalFiles }: any) {
       {/* Progress Bar  */}
       <div className="h-4 w-full bg-gray-200 rounded-full mt-5">
         <div
-          className={`h-4  bg-blue-600 rounded-full`}
+          className={`h-4 bg-blue-600 rounded-full`}
           style={{ width: `${(totalFiles / 5) * 100}%` }}
         ></div>
       </div>

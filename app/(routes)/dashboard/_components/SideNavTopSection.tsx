@@ -14,9 +14,9 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 
 export interface TEAM {
-  cretedBy: String;
-  teamName: String;
-  _id: String;
+  cretedBy: string;
+  teamName: string;
+  _id: string;
 }
 function SideNavTopSection({ user,setActiveTeamInfo }: any) {
   const menu = [
